@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>💖 Sana Kalbimden Bir Mesaj 💖</title>
+  <style>
+    body {
+      background-image: url('https://i.imgur.com/4AiXzf8.jpeg'); /* Kalpli arka plan */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #fff;
+      text-shadow: 1px 1px 3px #c2185b;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.5em;
+      margin: 20px 0;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    .hearts {
+      font-size: 2.5em;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="hearts">💗💞💘💕💖❤️</div>
+  <h1>İçerisinde sen olan herşeye muhtacım sevdiğim </h1>
+  <p>Her sabah gözlerimi açtığımda, aklıma ilk gelen sensin...<br>
+  Kalbim seninle tamam, ruhum seninle huzur buluyor sen varsan bende varım sen yoksan bende yokum sol yanım💫</p>
+  <p>Bu sayfa, sana olan sevgimin sadece dijital bir yansıması...<br>
+  Gerçek olan, her an seni daha çok sevdiğim  💖</p>
+  <div class="hearts">❤️💖💕💘💞💗</div>
+</body>
+</html>
+
