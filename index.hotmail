@@ -1,0 +1,46 @@
+from IPython.core.display import display, HTML
+
+html_code = """
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>💖 Sana Özel Bir Mesaj 💖</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #d6336c;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.5em;
+      margin: 20px 0;
+    }
+    .hearts {
+      font-size: 2em;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="hearts">❤️💖💕💘💞💗</div>
+  <h1>Canım Sevgilim</h1>
+  <p>Seninle her gün bir mucize gibi...<br>Kalbim seninle atıyor, her an seni seviyorum 💕</p>
+  <p>Bu mesaj sana olan sevgimin küçük bir yansıması...<br>Sen benim en güzel hikâyemsin 💖</p>
+  <div class="hearts">💗💞💘💕💖❤️</div>
+</body>
+</html>
+"""
+
+display(HTML(html_code))
