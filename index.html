@@ -5,47 +5,65 @@ html_code = """
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>💖 Sana Özel Bir Mesaj 💖</title>
+  <title> Sana Özel Bir Mesaj </title>
   <style>
-    body {<div style="margin-bottom: 30px;">
-  <a href="index.html" style="margin: 0 15px; text-decoration: none; color: #ff4081;">🌸 Ana Sayfa</a>
-  <a href="sayfa2.html" style="margin: 0 15px; text-decoration: none; color: #ff4081;">💌 Mesaj 1</a>
-  <a href="dizin.html" style="margin: 0 15px; text-decoration: none; color: #ff4081;">💖 Mesaj 2</a>
-</div>
-
+    body {
       background-color: #fff0f5;
       font-family: 'Segoe UI', sans-serif;
       text-align: center;
       padding: 50px;
-      color: #d6336c;
+      color: #000000; /* Siyah yazı */
+      font-size: 20px; /* Yazı puntosu */
     }
+
     h1 {
-      font-size: 3em;
+      font-size: 20px;
       margin-bottom: 20px;
+      color: #000000;
     }
+
     p {
-      font-size: 1.5em;
+      font-size: 20px;
       margin: 20px 0;
+      color: #000000;
     }
+
     .hearts {
-      font-size: 2em;
+      font-size: 20px;
       animation: pulse 1.5s infinite;
     }
+
     @keyframes pulse {
       0% { transform: scale(1); }
       50% { transform: scale(1.2); }
       100% { transform: scale(1); }
     }
+
+    .menu a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000000;
+      font-size: 20px;
+    }
   </style>
 </head>
 <body>
+
+  <div class="menu" style="margin-bottom: 30px;">
+    <a href="index.html">🌸 Ana Sayfa</a>
+    <a href="sayfa2.html">💌 Mesaj 1</a>
+    <a href="dizin.html">💖 Mesaj 2</a>
+  </div>
+
   <div class="hearts"></div>
-  <h1> YAŞAM VE ÖLÜM ARASINDA İNCE BİR ÇİZGİ 
-</h1>
-  <p><br> </p>
+
+  <h1>YAŞAM VE ÖLÜM ARASINDA İNCE BİR ÇİZGİDİR ANLAYAMAMAK ANLATAMAMAK...</h1>
+
+  <p><br></p>
 
 </body>
 </html>
 """
 
 display(HTML(html_code))
+
